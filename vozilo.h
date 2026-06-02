@@ -14,7 +14,7 @@ typedef enum {
     TESKO_OKLOPLJENO
 } TipOklopa;
 
-// OVAJ ENUM MORA IMATI OVAKVE NAZIVE DA BI IH MAIN.C PREPOZNAO:
+
 typedef enum {
     IZLAZ = 0,
     CREATE_INSERT,
@@ -22,7 +22,7 @@ typedef enum {
     UPDATE,
     DELETE,
     PRETRAZI,
-    OPERACIJE_DATOTEKA  // Rijec koja je javljala gresku!
+    OPERACIJE_DATOTEKA  
 } OpcijaIzbornika;
 
 typedef struct {
